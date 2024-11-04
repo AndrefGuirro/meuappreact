@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 function Letreiro() {
-  const texto = 'Conheça a Fatec';
+  
+  const texto = 'Conheça a Fatec     ';
   const [textoAtual, setTextoAtual] = useState('');
   const [indice, setIndice] = useState(0);
 
@@ -14,13 +15,12 @@ function Letreiro() {
         setTextoAtual('');
         setIndice(0);
       }
-    }, 200);
+    }, 300);
     return () => clearInterval(timer);
   }, [indice, texto]);
 
   return (
     <>
-      <h2>Letreiro</h2>
       <h2>{textoAtual}</h2> {}
     </>
   );

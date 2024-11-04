@@ -9,10 +9,10 @@ function Home() {
       <nav>
         <ul>
           <li>
-            <Link to="/Atv01">Atividade 01</Link>
+            <Link to="/Atv01" className="btn btn-primary m-2">Atividade 01</Link>
           </li>
           <li>
-            <Link to="/Atv02">Atividade 02</Link>
+            <Link to="/Atv02" className="btn btn-primary m-2">Atividade 02</Link>
           </li>
         </ul>
       </nav>
