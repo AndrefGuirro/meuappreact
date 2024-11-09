@@ -12,6 +12,7 @@ function Home() {
         <Link to="/Atv01" className="btn btn-primary mb-3">Atividade 01</Link>
         <Link to="/Atv02" className="btn btn-primary mb-3">Atividade 02</Link>
         <Link to="/Atv03" className="btn btn-primary mb-3">Atividade 03</Link>
+        <Link to="/Atv04" className="btn btn-primary mb-3">Atividade 04</Link>
       </div>
 
       <footer className="mt-auto py-3 text-center">
